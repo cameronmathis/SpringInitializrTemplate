@@ -32,4 +32,4 @@ services:
 
 networks:
   default:
-    name: spring-initializr-template_network
+    name: spring-initializr-template_Network
