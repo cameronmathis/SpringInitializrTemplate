@@ -30,7 +30,7 @@ In order to build a docker container, use the command:
 
 In order to run the docker container, use the command:
 
-> docker run --rm -it -p 8080:8080 spring-initializr-template:latest
+> docker run --rm -it -p 5432:5432 -p 8080:8080 spring-initializr-template:latest
 
 _\* the words "spring-initializr-template" can be swapped out for the name of the app_
 
