@@ -2,7 +2,7 @@ version: "3.9"
 
 services:
   API:
-    container_name: "API"
+    container_name: "spring-initializr-template_API"
     image: "spring-initializr-template"
     ports:
       - "8080:8080"
@@ -16,7 +16,7 @@ services:
       - SPRING_JPA_HIBERNATE_DDL_AUTO=update
 
   PostgreSQL:
-    container_name: "PostgreSQL"
+    container_name: "spring-initializr-template_PostgreSQL"
     image: "postgres:9.6"
     ports:
       - "5432:5432"
@@ -32,4 +32,4 @@ services:
 
 networks:
   default:
-    name: template-network
+    name: spring-initializr-template_network
