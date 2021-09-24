@@ -16,23 +16,13 @@ This is a template I created to easily spin up CRUD RESTful APIs.
 
 ## Setup
 
-In order to run this API, you need to have a PostgreSQL instance running. I suggest using the following docker commands.
-
-In order to create a PostgreSQL docker database, use the command:
-
-> docker run --name postgres -p 5432:5432 -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=root -e POSTGRES_DB=templates -d postgres:9.6
-
-_\* the word "templates" can be swapped out for the name of the database_
-
-In order to build a docker container, use the command:
+In order to build and run this API, I suggest using the following docker commands.
 
 > docker build -t spring-initializr-template .
 
-In order to run the docker container, use the command:
+> docker-compose -p spring-initializr-template up
 
-> docker run --rm -it -p 5432:5432 -p 8080:8080 spring-initializr-template:latest
-
-_\* the words "spring-initializr-template" can be swapped out for the name of the app_
+_\* the words "spring-initializr-template" can be swapped out for the name of the project_
 
 ## Software details
 
