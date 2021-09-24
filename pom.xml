@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.template</groupId>
-	<artifactId>RestServiceApplication</artifactId>
+	<artifactId>Application</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>RestServiceApplication</name>
+	<name>Application</name>
 	<description>Template project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
