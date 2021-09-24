@@ -34,7 +34,7 @@ Database: PostgreSQL 9.6 <br/>
 
 ## Status
 
-Version: 1.0.0 <br/>
+Version: 2.0.0 <br/>
 Project is: _finished_
 
 ## Contact

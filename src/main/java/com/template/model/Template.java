@@ -1,4 +1,4 @@
-package com.template.RestServiceApplication.model;
+package com.template.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

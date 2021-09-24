@@ -1,10 +1,14 @@
-package com.template.RestServiceApplication.controller;
+package com.template.controller;
 
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 import javax.validation.Valid;
+
+import com.template.exception.ResourceNotFoundException;
+import com.template.model.Template;
+import com.template.repository.TemplateRepository;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -16,11 +20,6 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
-
-import com.template.RestServiceApplication.exception.ResourceNotFoundException;
-import com.template.RestServiceApplication.model.Template;
-import com.template.RestServiceApplication.repository.TemplateRepository;
 
 @RestController
 @RequestMapping("/api/v1")

@@ -1,10 +1,9 @@
-package com.template.RestServiceApplication.repository;
+package com.template.repository;
+
+import com.template.model.Template;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-
-
-import com.template.RestServiceApplication.model.Template;
 
 @Repository
 public interface TemplateRepository extends JpaRepository<Template, Long>{

@@ -1,4 +1,4 @@
-package com.template.RestServiceApplication.exception;
+package com.template.exception;
 
 import java.util.Date;
 
